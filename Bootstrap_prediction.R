@@ -12,8 +12,10 @@ dataset <- data.frame(X1 = bodyfat$BMI, X2 = bodyfat$Neck, X3 = bodyfat$Chest,
                       X4 = bodyfat$Hips, X5 = bodyfat$Waist, X6 = bodyfat$Forearm,
                       X7 = bodyfat$PThigh, X8 = bodyfat$Wrist, y = bodyfat$Fat)
 
-# Split the data randomly into training, calibration, and testing sets
+# Set seed for reproducibility
 set.seed(123)
+
+# Split the data randomly into training, calibration, and testing sets
 n <- nrow(dataset)
 split_indices <- sample(1:n)
 n3 <- 20
