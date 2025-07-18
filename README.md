@@ -12,6 +12,7 @@ To evaluate the performance of conformal prediction methods, we consider both sp
 # Files
 The repository includes:
 
+- `BodyFat_data.csv`: This csv file is the dataset of size 183 that we use.
 - `bodyfat_transformation.R`: This R code implements both the split and the full conformal prediction based on the transformation regression model.
 - `bodyfat_hetero_transformation.R`: This R code implements both the split and the full conformal prediction based on the heteroscedastic regression model.
 - `bodyfat_pearson_mu_split.R`: This R code implements the split conformal prediction based on the beta regression model (with covariate-dependent mean) with a non-conformity measure based on Pearson residuals.
