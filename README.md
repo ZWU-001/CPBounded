@@ -26,6 +26,7 @@ The repository includes:
 
 - `Combined_prediction_interval.csv`: This CSV file contains the true outcome values, point predictions, prediction intervals, and coverage indicators for each test point, evaluated under all considered model frameworks.
 - `Prediction_interval_all_frameworks.R`: This R code visualizes prediction results (`Combined_prediction_interval.csv`) of all model frameworks into one figure.
+- `Bootstrap_prediction.R`: This R code implemented bootstrap-based prediction intervals approach from the work of Espinheira et al. (2014).
 - 
 
 Each script produces prediction intervals under the specified model and conformal method.
