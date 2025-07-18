@@ -12,9 +12,15 @@ To evaluate the performance of conformal prediction methods, we consider both sp
 # Files
 The repository includes:
 
-- `bodyfat_transformation.R`: Basic transformation model implementation (both split and full CP)
-- `bodyfat_hetero_transformation.R`: Heteroscedastic transformation model implementation (both split and full CP)
-- `bodyfat_pearson_mu[_phi]_[split/full].R`: Beta regression with the Pearson residual
-- `bodyfat_quantile_mu[_phi]_[split/full].R`: Beta regression with the quantile residual
+- `bodyfat_transformation.R`: This R code implements both the split and the full conformal prediction based on the transformation regression model.
+- `bodyfat_hetero_transformation.R`: This R code implements both the split and the full conformal prediction based on the heteroscedastic regression model.
+- `bodyfat_pearson_mu_split.R`: This R code implements the split conformal prediction based on the beta regression model (with covariate-dependent mean) with a non-conformity measure based on Pearson residuals.
+- `bodyfat_pearson_mu_full.R`: This R code implements the full conformal prediction based on the beta regression model (with covariate-dependent mean) with a non-conformity measure based on Pearson residuals.
+- `bodyfat_pearson_mu_phi_split.R`: This R code implements the split conformal prediction based on the beta regression model (with covariate-dependent mean and dispersion) with a non-conformity measure based on Pearson residuals.
+- `bodyfat_pearson_mu_phi_full.R`: This R code implements the full conformal prediction based on the beta regression model (with covariate-dependent mean and dispersion) with a non-conformity measure based on Pearson residuals.
+- `bodyfat_quantile_mu_split.R`: This R code implements the split conformal prediction based on the beta regression model (with covariate-dependent mean) with a non-conformity measure based on quantile residuals.
+- `bodyfat_quantile_mu_full.R`: This R code implements the full conformal prediction based on the beta regression model (with covariate-dependent mean) with a non-conformity measure based on quantile residuals.
+- `bodyfat_quantile_mu_phi_split.R`: This R code implements the split conformal prediction based on the beta regression model (with covariate-dependent mean and dispersion) with a non-conformity measure based on quantile residuals.
+- `bodyfat_quantile_mu_phi_full.R`: This R code implements the full conformal prediction based on the beta regression model (with covariate-dependent mean and dispersion) with a non-conformity measure based on quantile residuals.
 
 Each script produces prediction intervals under the specified model and conformal method.
