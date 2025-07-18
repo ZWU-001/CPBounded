@@ -22,9 +22,9 @@ n3 <- 20
 n1 <- floor((n - n3) / 2)
 n2 <- n - n3 - n1 
 
-idx1 <- split_indices[1:n1]
-idx2 <- split_indices[(n1 + 1):(n1 + n2)]
-idx3 <- split_indices[(n1 + n2 + 1):n]
+idx1 <- split_indices[1:n1]               # Training indices
+idx2 <- split_indices[(n1 + 1):(n1 + n2)] # Calibration indices
+idx3 <- split_indices[(n1 + n2 + 1):n]    # Testing indices
 
 training_set <- dataset[idx1, ]
 calibration_set <- dataset[idx2, ]
