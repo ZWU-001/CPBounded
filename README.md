@@ -5,8 +5,8 @@
 This repository contains the R code and data used in the real data application
 in:
 
-> Wu, Z., Leisen, F. and Rubio, F.J. (2025). Conformalized Regression for
-> Bounded Outcomes. *Submitted.*
+> Wu, Z., Leisen, F. and Rubio, F.J. (2026+). Conformalized Regression for
+> Bounded Outcomes. *Journal of Machine Learning Research*, in press.
 > [arXiv:2507.14023](https://arxiv.org/abs/2507.14023)
 
 
@@ -66,12 +66,11 @@ produces prediction intervals under its specified model and conformal method.
 If you use this code, please cite:
 
 ```bibtex
-@article{wu2025cpbounded,
+@article{wu2026cpbounded,
   author  = {Wu, Z. and Leisen, F. and Rubio, F.J.},
   title   = {Conformalized Regression for Bounded Outcomes},
-  journal = {Submitted},
-  year    = {2025},
-  note    = {arXiv:2507.14023}
+  journal = {Journal of Machine Learning Research},
+  year    = {2026}
 }
 ```
 
